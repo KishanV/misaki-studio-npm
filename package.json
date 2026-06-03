@@ -4,8 +4,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "webpack",
-    "upload": "npm publish",
-    "remove": "(npm unpublish @misaki-studio/9775d5a8-e10c-4b5b-aa9e-6ccddf015b3b --force || true)"
+    "upload": "npm publish"
   },
   "files": [
     "./dist"
