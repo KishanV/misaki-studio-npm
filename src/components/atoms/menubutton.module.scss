@@ -1,0 +1,15 @@
+.E1093 {
+  box-sizing: border-box;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background:
+    var(--svgs-types-icons-menuDrawer, url("")) center center no-repeat,
+    #000000ff;
+  background-size: auto, auto;
+  background-attachment: local;
+  border-radius: 38px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
