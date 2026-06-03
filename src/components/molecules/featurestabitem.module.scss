@@ -1,0 +1,298 @@
+.E1299 {
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  background: linear-gradient(180deg, #ffffffff 0%, #ffffffff 100%);
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  transition:
+    background-color 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75),
+    color 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  container-type: inline-size;
+}
+.E1298.E1299 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 0px;
+  container-type: inline-size;
+}
+.E1299:hover {
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+  background: linear-gradient(180deg, #ffffff00 70%, #ff408f24 100%);
+  background-size: auto;
+  background-attachment: local;
+  container-type: inline-size;
+}
+.E1298.E1299:hover {
+  box-sizing: border-box;
+  background: #ffffffff;
+  background-size: auto;
+  background-attachment: local;
+  container-type: inline-size;
+}
+.E1303 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: START;
+  flex-wrap: nowrap;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+@container (width < 180px) {
+  .E1303 {
+    box-sizing: border-box;
+    height: 170px;
+  }
+}
+.E1304 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  filter: blur(0px);
+}
+@container (width < 180px) {
+  .E1304 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+    align-items: CENTER;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+}
+.E1298.E1304 {
+  box-sizing: border-box;
+}
+.E1302 {
+  box-sizing: border-box;
+  position: relative;
+  width: 78px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+  background: #eeeeee00;
+  background-size: auto;
+  background-attachment: local;
+  border: 1px #dddddd00 solid;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+  overflow: Hidden;
+  will-change: opacity;
+}
+@container (width < 180px) {
+  .E1302 {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    will-change: opacity;
+  }
+}
+.E1298.E1302 {
+  box-sizing: border-box;
+  background: #f5fcffff;
+  background-size: auto;
+  background-attachment: local;
+  border: 2px #00a3ffff solid;
+}
+.E1305 {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: var(--svgs-types-featuresIocns-canvas, url("")) center center
+    no-repeat;
+  background-size: contain;
+  background-attachment: local;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+@container (width < 180px) {
+  .E1305 {
+    box-sizing: border-box;
+    width: 40px;
+  }
+}
+.E1306 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+@container (width < 180px) {
+  .E1306 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: CENTER;
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+}
+.E1307 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #000000ff;
+  line-height: 24px;
+  white-space: pre;
+  font-size: 20px;
+  font-weight: 500;
+}
+@container (width < 180px) {
+  .E1307 {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.E1298.E1307 {
+  box-sizing: border-box;
+  font-weight: 500;
+}
+.E1308 {
+  box-sizing: border-box;
+}
+.E1309 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #666666ff;
+  line-height: 18px;
+  white-space: pre-wrap;
+  overflow: Hidden;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.E1298.E1309 {
+  box-sizing: border-box;
+  height: 36px;
+  overflow: Hidden;
+  font-weight: 500;
+}
+.E1310 {
+  box-sizing: border-box;
+}
+.E1311 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  top: 0px;
+  background: #ffffffff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 6px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E1298.E1311 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+  background: #00a3ffff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1299:hover > .E1303 > .E1311 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+  background: #ff3f8fff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1298.E1299:hover > .E1303 > .E1311 {
+  box-sizing: border-box;
+  background: #00a3ffff;
+  background-size: auto;
+  background-attachment: local;
+}

@@ -1,0 +1,113 @@
+.E940 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 50px 0px 50px 0px;
+  margin: 0px;
+  container-type: inline-size;
+}
+.E941 {
+  box-sizing: border-box;
+  position: relative;
+  width: min-content;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  background: #00a3ffff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 6px;
+  display: block;
+  padding: 4px 6px 4px 6px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E942 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #ffffffff;
+  line-height: 14px;
+  white-space: pre;
+  font-size: 12px;
+  font-weight: 400;
+}
+.E943 {
+  box-sizing: border-box;
+}
+.E944 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: start;
+  align-items: START;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E945 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #000000ff;
+  white-space: pre;
+  font-size: 70px;
+  font-weight: 600;
+}
+@container (width < 1000px) {
+  .E945 {
+    box-sizing: border-box;
+    font-size: 44px;
+  }
+}
+@container (width < 650px) {
+  .E945 {
+    box-sizing: border-box;
+    font-size: 36px;
+  }
+}
+.E946 {
+  box-sizing: border-box;
+}
+.E947 {
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #000000ff;
+  white-space: pre-line;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.E948 {
+  box-sizing: border-box;
+}

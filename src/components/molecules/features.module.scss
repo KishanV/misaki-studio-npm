@@ -1,0 +1,41 @@
+.E1184 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  border-radius: 0px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  container-type: inline-size;
+}
+.E1185 {
+  box-sizing: border-box;
+  position: sticky;
+  width: 100%;
+  height: min-content;
+  left: 0px;
+  top: -34px;
+  background: #ffffffff;
+  background-size: auto;
+  background-attachment: local;
+  z-index: 1;
+}
+@container (width < 1200px) {
+  .E1185 {
+    box-sizing: border-box;
+    top: -10px;
+  }
+}
+.E1186 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}

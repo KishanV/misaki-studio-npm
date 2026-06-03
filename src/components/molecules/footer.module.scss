@@ -1,0 +1,221 @@
+.E250 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: min-content;
+  border-top: 1px #eeeeeeff solid;
+  border-right: 0px #e0e0e0ff solid;
+  border-bottom: 0px #e0e0e0ff solid;
+  border-left: 0px #e0e0e0ff solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 14px;
+  padding: 26px 20px 20px 20px;
+  margin: 0px;
+  overflow: Hidden;
+}
+.E251 {
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: start;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+  scale: 1;
+  opacity: 1;
+  transition: scale 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+.E252 {
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+  position: relative;
+  width: min-content;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: start;
+  align-items: START;
+  flex-wrap: nowrap;
+  gap: 0px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(100px);
+}
+.E253 {
+  box-sizing: border-box;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #ff3f8fff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 400px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E254 {
+  box-sizing: border-box;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #008ad8ff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 400px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E255 {
+  box-sizing: border-box;
+  position: relative;
+  width: min-content;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: start;
+  align-items: START;
+  flex-wrap: nowrap;
+  gap: 14px;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E256 {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #000000ff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 50px;
+  display: block;
+  padding: 12px;
+  margin: 0px;
+  filter: blur(0px);
+  cursor: pointer;
+}
+.E257 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: var(--svgs-types-social-x, url("")) center center no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E258 {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #000000ff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 50px;
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  filter: blur(0px);
+  cursor: pointer;
+}
+.E259 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: var(--svgs-types-social-discord, url("")) center center no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E260 {
+  box-sizing: border-box;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #000000ff;
+  background-size: auto;
+  background-attachment: local;
+  border-radius: 50px;
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  filter: blur(0px);
+  cursor: pointer;
+}
+.E261 {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: var(--svgs-types-social-linkedin, url("")) center center no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E262 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #000000ff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.E263 {
+  box-sizing: border-box;
+}

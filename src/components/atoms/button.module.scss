@@ -1,0 +1,149 @@
+.E1041 {
+  box-sizing: border-box;
+  interpolate-size: allow-keywords;
+  position: relative;
+  width: min-content;
+  height: 38px;
+  background: #333333ff;
+  background-size: auto;
+  background-attachment: local;
+  border: 2px #33333300 solid;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: CENTER;
+  flex-wrap: nowrap;
+  gap: 8px;
+  padding: 10px 14px 10px 14px;
+  margin: 0px;
+  cursor: pointer;
+  transition:
+    background-color 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75),
+    color 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75),
+    filter 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75),
+    backdrop-filter 150ms 0ms cubic-bezier(0.25, 0.25, 0.75, 0.75),
+    transform 150ms 0ms cubic-bezier(0.25, 0.25, 0.037, 1);
+}
+.E1038.E1041 {
+  box-sizing: border-box;
+  height: min-content;
+  border-radius: 40px;
+  padding: 6px 12px 6px 12px;
+}
+.E1039.E1041 {
+  box-sizing: border-box;
+  background: #ffffffff;
+  background-size: auto;
+  background-attachment: local;
+  border: 2px #333333ff solid;
+}
+.E1040.E1041 {
+  box-sizing: border-box;
+  background: #f5f5f5ff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1041:focus {
+  box-sizing: border-box;
+  background: #000000ff;
+  background-size: auto;
+  background-attachment: local;
+  border: 2px #00bbffff solid;
+  filter: drop-shadow(0px 5px 5px #00000026);
+}
+.E1039.E1041:focus {
+  box-sizing: border-box;
+  background: #f5f5f5ff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1040.E1041:focus {
+  box-sizing: border-box;
+  background: #f0f0f0ff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1041:hover {
+  box-sizing: border-box;
+  background: #333333ff;
+  background-size: auto;
+  background-attachment: local;
+  filter: drop-shadow(0px 5px 10px #00000033);
+}
+.E1039.E1041:hover {
+  box-sizing: border-box;
+  background: #f5f5f5ff;
+  background-size: auto;
+  background-attachment: local;
+}
+.E1040.E1041:hover {
+  box-sizing: border-box;
+  background: #f0f0f0ff;
+  background-size: auto;
+  background-attachment: local;
+  border: 2px #33333314 solid;
+  filter: drop-shadow(0px 5px 5px #0000001a);
+}
+.E1042 {
+  box-sizing: border-box;
+  position: relative;
+  width: min-content;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}
+.E1043 {
+  box-sizing: border-box;
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #ffffffff;
+  line-height: 18px;
+  white-space: pre;
+  font-size: 15px;
+  font-weight: 400;
+}
+.E1038.E1043 {
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.E1039.E1043 {
+  box-sizing: border-box;
+  color: #333333ff;
+}
+.E1040.E1043 {
+  box-sizing: border-box;
+  color: #333333ff;
+}
+.E1039.E1041:hover > .E1043 {
+  box-sizing: border-box;
+  color: #ffffffff;
+}
+.E1039.E1041:hover > .E1043 {
+  box-sizing: border-box;
+  color: #000000ff;
+}
+.E1044 {
+  box-sizing: border-box;
+}
+.E1045 {
+  box-sizing: border-box;
+  position: relative;
+  width: min-content;
+  height: min-content;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  filter: blur(0px);
+}

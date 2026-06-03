@@ -1,0 +1,75 @@
+"use client";
+import * as react from "react";
+import * as msi from "misaki-studio-internal";
+import { useRouter } from "next/router";
+import { Environment } from "../../settings/environment";
+import { SVGs } from "../../design-system/images";
+import * as ComponentsMoleculesPagehero from "../../components/molecules/pagehero";
+import * as ComponentsMoleculesFooter from "../../components/molecules/footer";
+import * as ComponentsMoleculesAnimatedheader from "../../components/molecules/animatedheader";
+import * as DocumentsThestevejobsways from "../../documents/thestevejobsways";
+import styles from "./thestevejobways.module.scss";
+
+export default ({
+  className = "",
+  style,
+  divProps,
+}: {
+  className?: string;
+  style?: React.CSSProperties;
+  divProps?: react.DOMAttributes<HTMLDivElement> & {
+    ref?: (elm?: any) => void;
+  };
+}) => {
+  const router = useRouter();
+  const id = msi.utils.getCount();
+  const rootElement = react.useRef<HTMLDivElement>(null);
+  return (
+    <msi.resizeDetecter.ResponsiveDiv
+      sizes={[
+        { width: 1200, className: ["w1200px"] },
+        { width: 700, className: ["w700px"] },
+        { width: 400, className: ["w400px"] },
+      ]}
+      style={{ ...style }}
+      className={`${className}  ${id} ${styles["E380"]}`}
+      divProps={{
+        ...divProps,
+        ref: (element) => {
+          (rootElement as any).current = element;
+          divProps?.ref?.(element);
+        },
+      }}
+    >
+      {(screen) => {
+        return (
+          <>
+            <ComponentsMoleculesAnimatedheader.Component
+              className={` ${id} ${styles["E381"]}`}
+              divProps={{}}
+              properties={{ activeLink: "blog" }}
+            />
+            <ComponentsMoleculesPagehero.Component
+              className={` ${id} ${styles["E382"]}`}
+              divProps={{}}
+              properties={{
+                title: "The Steve Jobs Ways",
+                description: "It should just work design to code, instantly.",
+                tag: "Blog",
+              }}
+            />
+            <div className={` ${id} ${styles["E383"]}`}>
+              <div className={` ${id} ${styles["E384"]}`}>
+                <DocumentsThestevejobsways.Component />
+              </div>
+            </div>
+            <ComponentsMoleculesFooter.Component
+              className={` ${id} ${styles["E385"]}`}
+              divProps={{}}
+            />
+          </>
+        );
+      }}
+    </msi.resizeDetecter.ResponsiveDiv>
+  );
+};
